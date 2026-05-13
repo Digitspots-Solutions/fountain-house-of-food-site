@@ -1,0 +1,42 @@
+{
+  "businessName": "Fountain House of Food",
+  "industry": "Food Manufacturing",
+  "tone": "warm and professional",
+  "tagline": "Quality Food Manufacturing from the Heart of Rivers State",
+  "sections": [
+    {
+      "id": "hero",
+      "name": "Hero Section",
+      "copy": "Welcome to Fountain House of Food - Your Trusted Partner in Quality Food Manufacturing. Located in the heart of Obio Akpor, we deliver excellence in every product we manufacture. From farm to table, we ensure the highest standards of quality and safety.",
+      "imagePrompt": "A vibrant, photorealistic image of a modern Nigerian food manufacturing facility with stainless steel equipment, workers in hygiene gear packaging food products, warm natural lighting streaming through large windows, professional industrial kitchen setting in Rivers State, Nigeria, clean and appetizing atmosphere",
+      "layout": "centered"
+    },
+    {
+      "id": "about",
+      "name": "About Us",
+      "copy": "Fountain House of Food is a leading food manufacturing company based in Obio Akpor, Rivers State. We are committed to producing high-quality food products that meet international standards while celebrating Nigerian flavors and traditions. Our state-of-the-art facility at Rumuapu Apu Road, Rukpokwu, is equipped with modern machinery and operated by skilled professionals dedicated to food safety and excellence. We pride ourselves on being a reliable partner for businesses and consumers across Nigeria, delivering products that nourish families and support communities.",
+      "imagePrompt": "A warm, photorealistic image showing Nigerian food manufacturing workers collaborating in a bright, clean production floor, diverse team members in white coats and hairnets inspecting quality food products, modern equipment in background, professional yet welcoming atmosphere, natural lighting highlighting teamwork and dedication",
+      "layout": "split"
+    },
+    {
+      "id": "services",
+      "name": "Our Services",
+      "copy": "At Fountain House of Food, we offer comprehensive food manufacturing solutions tailored to meet diverse market needs:\n\n• Contract Manufacturing: We partner with brands to produce high-quality food products to exact specifications.\n\n• Private Label Production: Launch your own food brand with our expert manufacturing support and quality assurance.\n\n• Food Processing & Packaging: From raw materials to finished products, we handle every stage with precision and care.\n\n• Quality Assurance & Testing: Rigorous quality control ensures every product meets NAFDAC standards and international best practices.\n\n• Supply Chain Solutions: Reliable distribution networks to get your products where they need to be, when they need to be there.\n\nWe work with restaurants, retailers, distributors, and food service companies across Nigeria to deliver consistent quality and value.",
+      "imagePrompt": "A detailed, photorealistic collage showing various aspects of Nigerian food manufacturing: packaged food products on conveyor belts, quality control lab with testing equipment, warehouse with organized inventory, delivery trucks being loaded, all within a modern Nigerian manufacturing context, professional and efficient atmosphere",
+      "layout": "grid"
+    },
+    {
+      "id": "contact",
+      "name": "Contact Us",
+      "copy": "Ready to partner with Fountain House of Food? We're here to discuss your food manufacturing needs and how we can help bring your vision to life.\n\nVisit our facility at Rumuapu Apu Road, Rukpokwu, Obio Akpor, Rivers State, or reach out to us today. Our team is ready to answer your questions and provide customized solutions for your business.\n\nLet's create something exceptional together.",
+      "imagePrompt": "A welcoming, photorealistic image of a modern Nigerian office reception area with comfortable seating, professional decor featuring food manufacturing imagery, friendly staff at reception desk, large windows showing the facility exterior, inviting and professional atmosphere with Nigerian cultural touches",
+      "layout": "centered"
+    }
+  ],
+  "contact": {
+    "phone": "+234 814 857 1565",
+    "email": "info@fountainhouseoffood.com",
+    "address": "Rumuapu Apu Road, Rukpokwu, Obio Akpor, Rivers State, Nigeria",
+    "whatsapp": "https://wa.me/2348148571565"
+  }
+}
