@@ -1,41 +1,41 @@
 {
-  "businessName": "Fountain House of Food",
-  "industry": "Food Manufacturing",
-  "tone": "warm and professional",
-  "tagline": "Quality Food Manufacturing from the Heart of Rivers State",
+  "businessName": "Steve Chy Subsea Engineering Co",
+  "industry": "Oil & Gas Engineering",
+  "tone": "professional",
+  "tagline": "Delivering Excellence in Subsea and Offshore Engineering Solutions",
   "sections": [
     {
       "id": "hero",
-      "name": "Hero Section",
-      "copy": "Welcome to Fountain House of Food - Your Trusted Partner in Quality Food Manufacturing. Located in the heart of Obio Akpor, we deliver excellence in every product we manufacture. From farm to table, we ensure the highest standards of quality and safety.",
-      "imagePrompt": "A vibrant, photorealistic image of a modern Nigerian food manufacturing facility with stainless steel equipment, workers in hygiene gear packaging food products, warm natural lighting streaming through large windows, professional industrial kitchen setting in Rivers State, Nigeria, clean and appetizing atmosphere",
+      "name": "Hero",
+      "copy": "Steve Chy Subsea Engineering Co - Your Trusted Partner in Offshore Solutions. We provide world-class subsea engineering services and reservoir engineering expertise to the Nigerian oil and gas industry. With deep technical knowledge and commitment to safety, we deliver innovative solutions that drive operational excellence.",
+      "imagePrompt": "Photorealistic offshore oil platform in the Niger Delta at golden hour, subsea pipeline infrastructure visible beneath clear blue ocean waters, Nigerian coastal waters, professional industrial photography, engineering excellence, modern offshore facility with safety standards, 4K quality, cinematic lighting",
       "layout": "centered"
     },
     {
       "id": "about",
       "name": "About Us",
-      "copy": "Fountain House of Food is a leading food manufacturing company based in Obio Akpor, Rivers State. We are committed to producing high-quality food products that meet international standards while celebrating Nigerian flavors and traditions. Our state-of-the-art facility at Rumuapu Apu Road, Rukpokwu, is equipped with modern machinery and operated by skilled professionals dedicated to food safety and excellence. We pride ourselves on being a reliable partner for businesses and consumers across Nigeria, delivering products that nourish families and support communities.",
-      "imagePrompt": "A warm, photorealistic image showing Nigerian food manufacturing workers collaborating in a bright, clean production floor, diverse team members in white coats and hairnets inspecting quality food products, modern equipment in background, professional yet welcoming atmosphere, natural lighting highlighting teamwork and dedication",
+      "copy": "Steve Chy Subsea Engineering Co (also operating as Steve Chy Offshore Solutions Limited) is a leading Nigerian oil and gas engineering firm specializing in subsea systems and reservoir engineering. Led by experienced reservoir engineers, we combine technical expertise with local knowledge to deliver cost-effective, safe, and sustainable solutions for offshore operations. Our commitment to excellence and understanding of Nigeria's unique oil and gas landscape makes us the preferred partner for operators seeking reliable subsea engineering services. We maintain the highest industry standards while providing responsive, client-focused service throughout Obio Akpor and the broader Niger Delta region.",
+      "imagePrompt": "Modern Nigerian oil and gas engineering office with technical diagrams and subsea schematics on displays, professional engineers reviewing reservoir data, contemporary African workplace, technical drawings of subsea infrastructure, safety certifications on wall, natural lighting, corporate professional setting",
       "layout": "split"
     },
     {
       "id": "services",
       "name": "Our Services",
-      "copy": "At Fountain House of Food, we offer comprehensive food manufacturing solutions tailored to meet diverse market needs:\n\n• Contract Manufacturing: We partner with brands to produce high-quality food products to exact specifications.\n\n• Private Label Production: Launch your own food brand with our expert manufacturing support and quality assurance.\n\n• Food Processing & Packaging: From raw materials to finished products, we handle every stage with precision and care.\n\n• Quality Assurance & Testing: Rigorous quality control ensures every product meets NAFDAC standards and international best practices.\n\n• Supply Chain Solutions: Reliable distribution networks to get your products where they need to be, when they need to be there.\n\nWe work with restaurants, retailers, distributors, and food service companies across Nigeria to deliver consistent quality and value.",
-      "imagePrompt": "A detailed, photorealistic collage showing various aspects of Nigerian food manufacturing: packaged food products on conveyor belts, quality control lab with testing equipment, warehouse with organized inventory, delivery trucks being loaded, all within a modern Nigerian manufacturing context, professional and efficient atmosphere",
+      "copy": "**Subsea Engineering**: Comprehensive subsea system design, installation supervision, and integrity management for offshore facilities. We provide technical support for subsea infrastructure including pipelines, manifolds, and flowlines.\n\n**Reservoir Engineering**: Expert reservoir analysis, production optimization, and field development planning. Our team delivers detailed reservoir characterization and performance forecasting to maximize asset value.\n\n**Offshore Solutions**: Complete offshore engineering support including platform engineering, mooring systems analysis, and marine operations planning tailored to Nigerian offshore conditions.\n\n**Technical Consulting**: Strategic advisory services for oil and gas operators, covering feasibility studies, risk assessment, and regulatory compliance for offshore projects.\n\n**Project Management**: End-to-end project execution support ensuring safe, on-time, and budget-conscious delivery of subsea and offshore engineering projects.",
+      "imagePrompt": "Split screen composition showing subsea pipeline installation underwater on left and reservoir engineering software visualization on right, Nigerian offshore operations, technical precision, professional oil and gas services, advanced engineering equipment, modern digital tools, industrial excellence",
       "layout": "grid"
     },
     {
       "id": "contact",
       "name": "Contact Us",
-      "copy": "Ready to partner with Fountain House of Food? We're here to discuss your food manufacturing needs and how we can help bring your vision to life.\n\nVisit our facility at Rumuapu Apu Road, Rukpokwu, Obio Akpor, Rivers State, or reach out to us today. Our team is ready to answer your questions and provide customized solutions for your business.\n\nLet's create something exceptional together.",
-      "imagePrompt": "A welcoming, photorealistic image of a modern Nigerian office reception area with comfortable seating, professional decor featuring food manufacturing imagery, friendly staff at reception desk, large windows showing the facility exterior, inviting and professional atmosphere with Nigerian cultural touches",
-      "layout": "centered"
+      "copy": "Ready to discuss your offshore engineering needs? Contact Steve Chy Subsea Engineering Co today. Our team of experienced reservoir and subsea engineers is ready to provide expert solutions for your oil and gas projects.\n\nVisit our office in Obio Akpor or reach out via phone, email, or WhatsApp for immediate consultation. We serve clients across the Niger Delta and throughout Nigeria's oil and gas sector.",
+      "imagePrompt": "Professional Nigerian office reception area for oil and gas company, modern corporate interior with industry certifications, welcoming front desk, technical equipment visible, Obio Akpor location, professional atmosphere, natural daylight, contemporary African business environment",
+      "layout": "default"
     }
   ],
   "contact": {
     "phone": "+234 814 857 1565",
-    "email": "info@fountainhouseoffood.com",
+    "email": "info@stevechy.com",
     "address": "Rumuapu Apu Road, Rukpokwu, Obio Akpor, Rivers State, Nigeria",
     "whatsapp": "https://wa.me/2348148571565"
   }
