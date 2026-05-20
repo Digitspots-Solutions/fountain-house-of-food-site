@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fountain House of Food - Quality Food Manufacturing from the Heart of Rivers State</title>
+    <title>Steve Chy Subsea Engineering Co - Delivering Excellence in Subsea and Offshore Engineering Solutions</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Karla:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
         :root {
-            --color-primary: #37150e;
-            --color-accent: #cb4922;
-            --color-bg: #F8F0E8;
-            --color-text: #321A0C;
-            --color-surface: #351a0b;
-            --color-secondary-accent: #8f7e74;
-            --font-display: 'Barlow Condensed', sans-serif;
-            --font-body: 'Lato', sans-serif;
-            --border-radius: 6px;
+            --color-primary: #13233a;
+            --color-accent: #c9980b;
+            --color-bg: #FAF8F2;
+            --color-text: #101E30;
+            --color-surface: #1c294e;
+            --color-secondary-accent: #7b9ba4;
+            --font-display: 'Libre Baskerville', serif;
+            --font-body: 'Karla', sans-serif;
+            --border-radius: 2px;
         }
 
         * {
@@ -35,6 +35,20 @@
             color: var(--color-text);
             background-color: var(--color-bg);
             line-height: 1.6;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-display);
+            font-weight: 700;
+            line-height: 1.2;
+            color: var(--color-primary);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
         }
 
         @keyframes fadeUp {
@@ -52,17 +66,17 @@
         nav {
             position: sticky;
             top: 0;
-            background: rgba(248, 240, 232, 0.95);
+            background: rgba(250, 248, 242, 0.95);
             backdrop-filter: blur(10px);
             z-index: 1000;
-            padding: 1.25rem 0;
-            box-shadow: 0 4px 8px rgba(55, 21, 14, 0.1);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+            animation: fadeUp 0.6s ease forwards;
         }
 
         .nav-container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 2rem;
+            padding: 1rem 1.5rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -70,17 +84,16 @@
 
         .logo {
             font-family: var(--font-display);
-            font-size: 1.75rem;
+            font-size: 1.25rem;
             font-weight: 700;
             color: var(--color-primary);
-            text-transform: uppercase;
-            letter-spacing: 1px;
+            text-decoration: none;
         }
 
         .nav-links {
             display: flex;
-            gap: 2.5rem;
             list-style: none;
+            gap: 2rem;
         }
 
         .nav-links a {
@@ -88,7 +101,7 @@
             color: var(--color-text);
             font-weight: 500;
             transition: color 0.3s ease;
-            font-size: 1rem;
+            font-size: 0.95rem;
         }
 
         .nav-links a:hover {
@@ -100,7 +113,6 @@
             flex-direction: column;
             cursor: pointer;
             gap: 4px;
-            z-index: 1001;
         }
 
         .mobile-menu-btn span {
@@ -130,7 +142,7 @@
             width: 300px;
             height: calc(100vh - 70px);
             background: var(--color-bg);
-            box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+            box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
             transition: right 0.3s ease;
             z-index: 999;
             padding: 2rem;
@@ -165,12 +177,12 @@
         /* Hero Section */
         #hero {
             position: relative;
-            min-height: 100vh;
+            height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
-            color: #ffffff;
+            color: white;
             overflow: hidden;
             animation: fadeUp 0.6s ease forwards;
         }
@@ -199,57 +211,65 @@
             position: relative;
             z-index: 3;
             max-width: 900px;
-            padding: 0 2rem;
+            padding: 0 1.5rem;
         }
 
         .hero-content h1 {
-            font-family: var(--font-display);
-            font-size: 4rem;
-            font-weight: 700;
+            font-size: 3.5rem;
             margin-bottom: 1.5rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            line-height: 1.1;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero-tagline {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--color-accent);
+            font-family: var(--font-display);
+            font-style: italic;
         }
 
         .hero-content p {
-            font-size: 1.3rem;
-            margin-bottom: 2.5rem;
-            font-weight: 300;
-            line-height: 1.7;
+            font-size: 1.15rem;
+            margin-bottom: 2rem;
+            line-height: 1.8;
         }
 
         .cta-button {
             display: inline-block;
-            padding: 1rem 3rem;
+            padding: 1rem 2.5rem;
             background: var(--color-accent);
-            color: #ffffff;
+            color: white;
             text-decoration: none;
-            font-weight: 700;
-            font-size: 1.1rem;
             border-radius: var(--border-radius);
+            font-weight: 500;
+            font-size: 1.1rem;
             transition: all 0.3s ease;
-            box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
-            text-transform: uppercase;
-            letter-spacing: 1px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         .cta-button:hover {
-            background: var(--color-primary);
-            transform: translate(2px, 2px);
-            box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+            background: #a87f09;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Section Divider */
+        .section-divider {
+            width: 200px;
+            height: 1px;
+            background: linear-gradient(to right, transparent, var(--color-accent), transparent);
+            margin: 0 auto 3rem;
         }
 
         /* About Section */
         #about {
-            padding: 80px 2rem;
+            padding: 80px 0;
             animation: fadeUp 0.6s ease forwards;
             animation-delay: 0.1s;
         }
 
         .about-container {
-            max-width: 1200px;
-            margin: 0 auto;
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 4rem;
@@ -261,47 +281,32 @@
             height: 500px;
             object-fit: cover;
             border-radius: var(--border-radius);
-            box-shadow: 8px 8px 0 var(--color-surface);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         }
 
         .about-content h2 {
-            font-family: var(--font-display);
-            font-size: 3rem;
-            font-weight: 700;
-            color: var(--color-primary);
+            font-size: 2.5rem;
             margin-bottom: 1.5rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
         }
 
         .about-content p {
-            font-size: 1.1rem;
+            font-size: 1.05rem;
             line-height: 1.8;
-            color: var(--color-text);
+            margin-bottom: 1.5rem;
         }
 
         /* Services Section */
         #services {
-            padding: 80px 2rem;
-            background: var(--color-surface);
-            color: var(--color-bg);
+            padding: 80px 0;
+            background: white;
             animation: fadeUp 0.6s ease forwards;
             animation-delay: 0.2s;
         }
 
-        .services-container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .services-container h2 {
-            font-family: var(--font-display);
-            font-size: 3rem;
-            font-weight: 700;
+        #services h2 {
+            font-size: 2.5rem;
             text-align: center;
-            margin-bottom: 3rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+            margin-bottom: 1rem;
         }
 
         .services-grid {
@@ -312,138 +317,137 @@
         }
 
         .service-card {
-            background: rgba(248, 240, 232, 0.05);
+            background: var(--color-bg);
             padding: 2rem;
             border-radius: var(--border-radius);
-            border: 2px solid var(--color-accent);
+            border-left: 4px solid var(--color-accent);
             transition: all 0.3s ease;
         }
 
         .service-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 4px 4px 0 var(--color-accent);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
         }
 
         .service-card h3 {
-            font-family: var(--font-display);
             font-size: 1.5rem;
-            font-weight: 600;
             margin-bottom: 1rem;
-            color: var(--color-accent);
-            text-transform: uppercase;
+            color: var(--color-primary);
         }
 
         .service-card p {
-            line-height: 1.7;
             font-size: 1rem;
+            line-height: 1.7;
         }
 
         /* Contact Section */
         #contact {
-            padding: 80px 2rem;
+            padding: 80px 0;
             animation: fadeUp 0.6s ease forwards;
             animation-delay: 0.3s;
         }
 
-        .contact-container {
-            max-width: 1000px;
-            margin: 0 auto;
+        #contact h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .contact-content {
+            max-width: 800px;
+            margin: 3rem auto 0;
             text-align: center;
         }
 
-        .contact-container h2 {
-            font-family: var(--font-display);
-            font-size: 3rem;
-            font-weight: 700;
-            color: var(--color-primary);
-            margin-bottom: 2rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .contact-intro {
-            font-size: 1.1rem;
+        .contact-content p {
+            font-size: 1.05rem;
             line-height: 1.8;
-            margin-bottom: 3rem;
-            color: var(--color-text);
+            margin-bottom: 2rem;
         }
 
-        .contact-grid {
+        .contact-info {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 2rem;
             margin-top: 3rem;
         }
 
-        .contact-card {
-            background: #ffffff;
+        .contact-item {
+            background: white;
             padding: 2rem;
             border-radius: var(--border-radius);
-            box-shadow: 4px 4px 0 var(--color-surface);
-            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
         }
 
-        .contact-card:hover {
-            transform: translate(-2px, -2px);
-            box-shadow: 6px 6px 0 var(--color-surface);
-        }
-
-        .contact-card h3 {
-            font-family: var(--font-display);
-            font-size: 1.3rem;
-            font-weight: 600;
-            color: var(--color-primary);
-            margin-bottom: 1rem;
-            text-transform: uppercase;
-        }
-
-        .contact-card a {
+        .contact-item h3 {
+            font-size: 1.25rem;
+            margin-bottom: 0.75rem;
             color: var(--color-accent);
+        }
+
+        .contact-item a {
+            color: var(--color-text);
             text-decoration: none;
-            font-weight: 500;
             transition: color 0.3s ease;
         }
 
-        .contact-card a:hover {
-            color: var(--color-primary);
+        .contact-item a:hover {
+            color: var(--color-accent);
         }
 
-        .contact-card p {
-            color: var(--color-text);
-            line-height: 1.6;
+        .whatsapp-button {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 1rem 2rem;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: var(--border-radius);
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+
+        .whatsapp-button:hover {
+            background: #20BA5A;
+            transform: translateY(-2px);
         }
 
         /* WhatsApp Floating Button */
         .whatsapp-float {
             position: fixed;
-            bottom: 2rem;
-            right: 2rem;
-            background: #25D366;
-            color: #ffffff;
+            bottom: 30px;
+            right: 30px;
             width: 60px;
             height: 60px;
+            background: #25D366;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 2rem;
-            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
             z-index: 999;
-            text-decoration: none;
             transition: all 0.3s ease;
+            text-decoration: none;
         }
 
         .whatsapp-float:hover {
             transform: scale(1.1);
-            box-shadow: 0 6px 16px rgba(37, 211, 102, 0.6);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .whatsapp-float svg {
+            width: 35px;
+            height: 35px;
+            fill: white;
         }
 
         /* Footer */
         footer {
             background: var(--color-surface);
-            color: var(--color-bg);
+            color: white;
             text-align: center;
-            padding: 2rem;
+            padding: 2rem 0;
             animation: fadeUp 0.6s ease forwards;
             animation-delay: 0.4s;
         }
@@ -455,15 +459,15 @@
         /* Responsive */
         @media (max-width: 1024px) {
             .hero-content h1 {
-                font-size: 3rem;
+                font-size: 2.75rem;
+            }
+
+            .hero-tagline {
+                font-size: 1.25rem;
             }
 
             .about-container {
                 gap: 3rem;
-            }
-
-            .about-image {
-                height: 400px;
             }
         }
 
@@ -471,24 +475,31 @@
             .nav-links {
                 display: none;
             }
-            
+
             .mobile-menu-btn {
                 display: flex;
             }
 
-            #hero,
-            #about,
-            #services,
-            #contact {
-                padding: 48px 1.5rem;
+            #hero {
+                height: 80vh;
             }
 
             .hero-content h1 {
-                font-size: 2.2rem;
+                font-size: 2rem;
+            }
+
+            .hero-tagline {
+                font-size: 1.1rem;
             }
 
             .hero-content p {
-                font-size: 1.1rem;
+                font-size: 1rem;
+            }
+
+            #about,
+            #services,
+            #contact {
+                padding: 48px 0;
             }
 
             .about-container {
@@ -497,50 +508,34 @@
             }
 
             .about-image {
-                height: 300px;
+                height: 350px;
             }
 
             .about-content h2,
-            .services-container h2,
-            .contact-container h2 {
-                font-size: 2.2rem;
+            #services h2,
+            #contact h2 {
+                font-size: 2rem;
             }
 
             .services-grid {
-                grid-template-columns: 1fr;
+                gap: 1.5rem;
             }
 
-            .contact-grid {
+            .contact-info {
                 grid-template-columns: 1fr;
+                gap: 1.5rem;
             }
 
             .whatsapp-float {
                 width: 50px;
                 height: 50px;
-                font-size: 1.5rem;
-                bottom: 1.5rem;
-                right: 1.5rem;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .hero-content h1 {
-                font-size: 1.8rem;
+                bottom: 20px;
+                right: 20px;
             }
 
-            .hero-content p {
-                font-size: 1rem;
-            }
-
-            .about-content h2,
-            .services-container h2,
-            .contact-container h2 {
-                font-size: 1.8rem;
-            }
-
-            .cta-button {
-                padding: 0.875rem 2rem;
-                font-size: 1rem;
+            .whatsapp-float svg {
+                width: 28px;
+                height: 28px;
             }
         }
     </style>
@@ -549,7 +544,7 @@
     <!-- Navigation -->
     <nav>
         <div class="nav-container">
-            <div class="logo">Fountain House of Food</div>
+            <a href="#" class="logo">Steve Chy Subsea Engineering Co</a>
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -576,55 +571,56 @@
 
     <!-- Hero Section -->
     <section id="hero">
-        <img src="https://images.pexels.com/photos/4924716/pexels-photo-4924716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Fountain House of Food Manufacturing Facility" class="hero-bg">
+        <img src="https://images.pexels.com/photos/35624822/pexels-photo-35624822.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Offshore oil platform" class="hero-bg">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1>Fountain House of Food</h1>
-            <p>Welcome to Fountain House of Food - Your Trusted Partner in Quality Food Manufacturing. Located in the heart of Obio Akpor, we deliver excellence in every product we manufacture. From farm to table, we ensure the highest standards of quality and safety.</p>
+            <h1>Steve Chy Subsea Engineering Co</h1>
+            <p class="hero-tagline">Delivering Excellence in Subsea and Offshore Engineering Solutions</p>
+            <p>Your Trusted Partner in Offshore Solutions. We provide world-class subsea engineering services and reservoir engineering expertise to the Nigerian oil and gas industry. With deep technical knowledge and commitment to safety, we deliver innovative solutions that drive operational excellence.</p>
             <a href="#contact" class="cta-button">Get In Touch</a>
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about">
-        <div class="about-container">
-            <img src="https://images.pexels.com/photos/33900357/pexels-photo-33900357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Fountain House of Food Team" class="about-image">
-            <div class="about-content">
-                <h2>About Us</h2>
-                <p>Fountain House of Food is a leading food manufacturing company based in Obio Akpor, Rivers State. We are committed to producing high-quality food products that meet international standards while celebrating Nigerian flavors and traditions. Our state-of-the-art facility at Rumuapu Apu Road, Rukpokwu, is equipped with modern machinery and operated by skilled professionals dedicated to food safety and excellence. We pride ourselves on being a reliable partner for businesses and consumers across Nigeria, delivering products that nourish families and support communities.</p>
+        <div class="container">
+            <div class="section-divider"></div>
+            <div class="about-container">
+                <img src="https://images.pexels.com/photos/6754758/pexels-photo-6754758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Engineering office" class="about-image">
+                <div class="about-content">
+                    <h2>About Us</h2>
+                    <p>Steve Chy Subsea Engineering Co (also operating as Steve Chy Offshore Solutions Limited) is a leading Nigerian oil and gas engineering firm specializing in subsea systems and reservoir engineering. Led by experienced reservoir engineers, we combine technical expertise with local knowledge to deliver cost-effective, safe, and sustainable solutions for offshore operations.</p>
+                    <p>Our commitment to excellence and understanding of Nigeria's unique oil and gas landscape makes us the preferred partner for operators seeking reliable subsea engineering services. We maintain the highest industry standards while providing responsive, client-focused service throughout Obio Akpor and the broader Niger Delta region.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Services Section -->
     <section id="services">
-        <div class="services-container">
+        <div class="container">
+            <div class="section-divider"></div>
             <h2>Our Services</h2>
-            <p style="text-align: center; font-size: 1.1rem; line-height: 1.8; max-width: 800px; margin: 0 auto;">At Fountain House of Food, we offer comprehensive food manufacturing solutions tailored to meet diverse market needs:</p>
             <div class="services-grid">
                 <div class="service-card">
-                    <h3>Contract Manufacturing</h3>
-                    <p>We partner with brands to produce high-quality food products to exact specifications.</p>
+                    <h3>Subsea Engineering</h3>
+                    <p>Comprehensive subsea system design, installation supervision, and integrity management for offshore facilities. We provide technical support for subsea infrastructure including pipelines, manifolds, and flowlines.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Private Label Production</h3>
-                    <p>Launch your own food brand with our expert manufacturing support and quality assurance.</p>
+                    <h3>Reservoir Engineering</h3>
+                    <p>Expert reservoir analysis, production optimization, and field development planning. Our team delivers detailed reservoir characterization and performance forecasting to maximize asset value.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Food Processing & Packaging</h3>
-                    <p>From raw materials to finished products, we handle every stage with precision and care.</p>
+                    <h3>Offshore Solutions</h3>
+                    <p>Complete offshore engineering support including platform engineering, mooring systems analysis, and marine operations planning tailored to Nigerian offshore conditions.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Quality Assurance & Testing</h3>
-                    <p>Rigorous quality control ensures every product meets NAFDAC standards and international best practices.</p>
+                    <h3>Technical Consulting</h3>
+                    <p>Strategic advisory services for oil and gas operators, covering feasibility studies, risk assessment, and regulatory compliance for offshore projects.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Supply Chain Solutions</h3>
-                    <p>Reliable distribution networks to get your products where they need to be, when they need to be there.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Partnership Opportunities</h3>
-                    <p>We work with restaurants, retailers, distributors, and food service companies across Nigeria to deliver consistent quality and value.</p>
+                    <h3>Project Management</h3>
+                    <p>End-to-end project execution support ensuring safe, on-time, and budget-conscious delivery of subsea and offshore engineering projects.</p>
                 </div>
             </div>
         </div>
@@ -632,41 +628,46 @@
 
     <!-- Contact Section -->
     <section id="contact">
-        <div class="contact-container">
+        <div class="container">
+            <div class="section-divider"></div>
             <h2>Contact Us</h2>
-            <div class="contact-intro">
-                <p>Ready to partner with Fountain House of Food? We're here to discuss your food manufacturing needs and how we can help bring your vision to life.</p>
-                <p>Visit our facility at Rumuapu Apu Road, Rukpokwu, Obio Akpor, Rivers State, or reach out to us today. Our team is ready to answer your questions and provide customized solutions for your business.</p>
-                <p><strong>Let's create something exceptional together.</strong></p>
-            </div>
-            <div class="contact-grid">
-                <div class="contact-card">
-                    <h3>Phone</h3>
-                    <p><a href="tel:+2348148571565">+234 814 857 1565</a></p>
+            <div class="contact-content">
+                <p>Ready to discuss your offshore engineering needs? Contact Steve Chy Subsea Engineering Co today. Our team of experienced reservoir and subsea engineers is ready to provide expert solutions for your oil and gas projects.</p>
+                <p>Visit our office in Obio Akpor or reach out via phone, email, or WhatsApp for immediate consultation. We serve clients across the Niger Delta and throughout Nigeria's oil and gas sector.</p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Phone</h3>
+                        <p><a href="tel:+2348148571565">+234 814 857 1565</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@stevechy.com">info@stevechy.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Address</h3>
+                        <p>Rumuapu Apu Road, Rukpokwu, Obio Akpor, Rivers State, Nigeria</p>
+                    </div>
                 </div>
-                <div class="contact-card">
-                    <h3>Email</h3>
-                    <p><a href="mailto:info@fountainhouseoffood.com">info@fountainhouseoffood.com</a></p>
-                </div>
-                <div class="contact-card">
-                    <h3>Address</h3>
-                    <p>Rumuapu Apu Road, Rukpokwu, Obio Akpor, Rivers State, Nigeria</p>
-                </div>
+
+                <a href="https://wa.me/2348148571565" class="whatsapp-button" target="_blank">Chat on WhatsApp</a>
             </div>
         </div>
     </section>
 
-    <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/2348148571565" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
-        <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-        </svg>
-    </a>
-
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Fountain House of Food. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2025 Steve Chy Subsea Engineering Co. All rights reserved.</p>
+        </div>
     </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/2348148571565" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 7.933-2.127c2.42 1.37 5.173 2.127 8.067 2.127 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.467c-2.482 0-4.908-0.646-7.07-1.87l-0.507-0.292-5.247 1.409 1.417-5.267-0.316-0.518c-1.314-2.15-2.007-4.581-2.007-7.063 0-7.51 6.11-13.6 13.6-13.6s13.6 6.09 13.6 13.6-6.09 13.6-13.6 13.6zM21.907 18.53c-0.366-0.184-2.161-1.067-2.496-1.189s-0.578-0.184-0.822 0.184c-0.244 0.366-0.946 1.189-1.16 1.433s-0.427 0.275-0.793 0.092c-0.366-0.184-1.545-0.571-2.942-1.815-1.087-0.97-1.821-2.169-2.035-2.535s-0.022-0.564 0.161-0.746c0.165-0.165 0.366-0.427 0.549-0.641s0.244-0.366 0.366-0.611c0.122-0.244 0.061-0.458-0.031-0.641s-0.822-1.981-1.127-2.713c-0.297-0.714-0.599-0.617-0.822-0.628-0.213-0.011-0.458-0.013-0.702-0.013s-0.641 0.092-0.976 0.458c-0.336 0.366-1.282 1.253-1.282 3.054s1.313 3.542 1.496 3.786c0.184 0.244 2.587 3.947 6.27 5.535 0.876 0.378 1.561 0.604 2.095 0.773 0.88 0.28 1.681 0.24 2.314 0.146 0.706-0.105 2.161-0.884 2.466-1.737s0.305-1.585 0.214-1.737c-0.092-0.152-0.336-0.244-0.702-0.427z"/>
+        </svg>
+    </a>
 
     <script>
         // Mobile menu toggle
